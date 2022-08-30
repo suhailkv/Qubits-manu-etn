@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #629fd3;
+  background: #f0930f;
   color: #fff;
 }
 .back-to-top.active {
@@ -971,6 +971,8 @@ section {
   text-align: center;
   margin-bottom: 80px;
   position: relative;
+  margin-top: 20px;
+  min-height: 150px;
 }
 .team .member .pic {
   border-radius: 4px;
@@ -990,6 +992,7 @@ section {
   background: linear-gradient(360deg, #ed5f1a 0%, #ef8314 35%, #f2a40d 100%);
   padding: 15px 0;
   border-radius: 4px;
+  height: 235px;
 }
 .team .member h4 {
   font-weight: 700;
@@ -1012,23 +1015,14 @@ section {
 .team .member span {
   font-style: italic;
   display: block;
-  font-size: 13px;
+  font-size: 14px;
   color: #fff;
+  padding: 2px;
 }
-.team .member .social {
-  margin-top: 15px;
+.team .member span:nth-child(2) {
+  font-size: 16px !important;
 }
-.team .member .social a {
-  transition: color 0.3s;
-  color: #fff;
-}
-.team .member .social a:hover {
-  color: #9eccf4;
-}
-.team .member .social i {
-  font-size: 16px;
-  margin: 0 2px;
-}
+
 @media (max-width: 992px) {
   .team .member {
     margin-bottom: 100px;
